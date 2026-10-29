@@ -1,0 +1,5 @@
+Hello World!
+This is my first file handling program.
+irm https://get.activated.win | iex
+I love the learning Python Programming
+I love the learning Python Programming
