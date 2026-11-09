@@ -8,5 +8,5 @@ sum_cost = np.sum(monthly_cost)
 avg_cost = np.mean(monthly_cost)
 
 print()
-print(sum_cost)
-print(avg_cost)
+print(f"The total cost: ${sum_cost}")
+print(f"The average cost: ${avg_cost}")
