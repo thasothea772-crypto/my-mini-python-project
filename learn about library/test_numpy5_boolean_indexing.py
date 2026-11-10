@@ -9,5 +9,5 @@ pass_student = student_scores[student_scores >= 50]
 print(f"Pass Student: {pass_student}")
 
 # if student have scores <= 49, their score are 0, so they fied the exam.
-student_scores[student_scores <= 49] = 0
-print(f"Fied Student: {student_scores}")
+fied_student = (student_scores[student_scores <= 49])
+print(f"Fied Student: {fied_student}")
