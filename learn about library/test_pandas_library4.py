@@ -27,6 +27,8 @@ total_cost = df["Cost"].sum()
 print(f"Total Cost: ${total_cost}")
 avg_cost = df["Cost"].mean()
 print(f"Average Cost: ${avg_cost}")
+annual_cost = total_cost * 12
+print(f"Annual Cost: ${annual_cost}")
 
 sns.set_theme(style="whitegrid")
 
