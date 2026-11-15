@@ -47,12 +47,12 @@ axes[1, 0].set_title('Security Software Expenses')
 
 # 4. Domain & SSL Graphics
 sns.barplot(
-    x='Year', y='Domain & SSL', data=df, ax=axes[1, 1], palette='Blues_d'
+    x='Year', y='Domain & SSL', data=df, ax=axes[1, 1], palette='Reds_d'
 )
 axes[1, 1].set_title('Domain & SSL Expenses')
 
 # 5. Total Cost Graphics
-sns.barplot(x='Year', y='Total Cost', data=df, ax=axes[2, 0], palette='Reds_d')
+sns.barplot(x='Year', y='Total Cost', data=df, ax=axes[2, 0], palette='Greens_d')
 axes[2, 0].set_title('Total IT Expenses')
 
 # Delete(2,1) ចោលដើម្បីកុំឱ្យវាទទេស្អាត
